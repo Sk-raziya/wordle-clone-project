@@ -1,0 +1,35 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .key {
+    padding: 12px;
+    background-color: #d3d6da;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .key:hover {
+    background-color: #a4a7aa;
+  }
+  
+  .action-key {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .action-key:hover {
+    background-color: #388e3c;
+  }
+  
